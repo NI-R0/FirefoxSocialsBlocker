@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "SocialsBlocker",
+    "version": "1.0",
+    "description": "Blocks social media sites outside of allowed time range.",
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "rules.js",
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_title": "SocialsBlocker"
+    }
+}
